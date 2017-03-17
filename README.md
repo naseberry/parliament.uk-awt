@@ -6,7 +6,7 @@ Automated web testing using [Selenium][selenium], [Mocha][mochjs] and [SauceLabs
 
 [Docker for Mac](https://download.docker.com/mac/stable/Docker.dmg) or [Docker for Windows](https://download.docker.com/win/stable/InstallDocker.msi)
 
-## Usage
+## Necessary tweaks
 
 To run either the full or integration test suites update the following section
 
@@ -18,6 +18,8 @@ environment:
       SAUCE_USERNAME: 'unknown'
       SAUCE_ACCESS_KEY: 'unknown'
 ```
+
+## Usage
 
 Now run either:
 
