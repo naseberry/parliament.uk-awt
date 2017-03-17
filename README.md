@@ -14,7 +14,7 @@ Within either both or one of the `docker-compose-all.yaml` and `docker-compose-i
 
 ```
 environment:
-      URL: 'http://beta.parliament.uk'
+      URL: 'http://www.example.com'
       SAUCE_USERNAME: 'unknown'
       SAUCE_ACCESS_KEY: 'unknown'
 ```
