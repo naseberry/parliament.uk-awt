@@ -1,6 +1,10 @@
 # Automated Web Test
 
-Automated web testing using [Selenium][selenium], [Mocha][mochjs] and [SauceLabs][saucelabs].
+Automated web testing using:
+
+- [Selenium](http://www.seleniumhq.org/)
+- [Mocha](https://mochajs.org/)
+- [SauceLabs](https://saucelabs.com/)
 
 ## Prerequisities
 
