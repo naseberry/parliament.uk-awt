@@ -19,4 +19,7 @@ environment:
       SAUCE_ACCESS_KEY: 'unknown'
 ```
 
-Now run either `docker-compose -f docker-compose-all.yaml up` or `docker-compose -f docker-compose-integration.yaml up`
+Now run either:
+
+- `docker-compose -f docker-compose-all.yaml up`
+- `docker-compose -f docker-compose-integration.yaml up`
