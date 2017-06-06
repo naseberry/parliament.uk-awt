@@ -1,0 +1,14 @@
+_public
+.git
+.idea
+.vscode
+docs
+node_modules
+.dockerignore
+.DS_Store
+.editorconfig
+.gitignore
+docker-compose.yml
+Dockerfile
+npm-debug.log
+README.md
