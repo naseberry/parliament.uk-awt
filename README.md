@@ -22,7 +22,13 @@ cd parliament.uk-awt
 npm i
 ```
 
-`./Makefile` requires your Saucelabs username and access key
+
+## Configuring test
+
+| File | Description |
+|-------------------------|--------------------------------------------------------------------------------|
+| `./config/browser.json` | Configure your capabilities. Specify the operating system, browser and version |
+| `./Makefile` | Configure your environment variables. username, access key, etc... |
 
 
 ## Running tests
@@ -30,6 +36,15 @@ npm i
 This runs concurrent tests within SauceLabs
 
 ### `make test`
+
+
+## Post test
+
+### Downloading Saucelabs image assets
+Run `make asset`
+
+### Removing all Saucelabs Automated tests and local screenshots dir
+Run `make clean`
 
 
 ## Contributing

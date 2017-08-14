@@ -9,17 +9,17 @@
 
 'use strict';
 
-const SauceLabs = require("saucelabs"),
-			saucelabs = new SauceLabs({
-				username: process.env.SAUCE_USERNAME,
-				password: process.env.SAUCE_ACCESS_KEY,
-			});
+const SauceLabs = require('saucelabs'),
+  saucelabs = new SauceLabs({
+    username: process.env.SAUCE_USERNAME,
+    password: process.env.SAUCE_ACCESS_KEY,
+  });
 
 
 saucelabs.getJobs(function (err, jobs) {
-	for (let i = 0; i < jobs.length; i++) {
-		saucelabs.deleteJob(jobs[i].id, function (err, res) {
-			console.log(res);
-		});
-	}
+  for (let i = 0; i < jobs.length; i++) {
+    saucelabs.deleteJob(jobs[i].id, function (err, res) {
+      console.log(res);
+    });
+  }
 });
